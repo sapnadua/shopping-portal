@@ -9,9 +9,9 @@ pipeline{
     
 
     stages{
-        stage('compile'){
+        stage('build'){
             steps{
-                echo 'this is the compile job'
+                echo 'this is the build job'
                 sh 'npm install'
             }
         }
